@@ -4,8 +4,13 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass scss/style.scss public/style.css --watch"
   },
   "author": "Austin Chappell",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "node-sass": "^4.5.3"
+  }
 }
