@@ -11,7 +11,10 @@
   "author": "Austin Chappell",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
     "express": "^4.15.4",
+    "mongoose": "^4.11.7",
     "node-sass": "^4.5.3"
   }
 }
